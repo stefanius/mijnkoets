@@ -19,7 +19,7 @@ class { 'mysql::server': }
 class { 'mysql::php': }
 
 mysql::db { 'wp_mijnkoets':
-  user     => 'wp_mijnkoets_user',
+  user     => 'mijnkoets_user',
   password => 'password',
   host     => '127.0.0.1',
   grant    => ['all'],
